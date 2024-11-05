@@ -19,3 +19,6 @@ textarea {
         padding: 0;
     }
 }
+td{
+    border: solid black 1px
+}

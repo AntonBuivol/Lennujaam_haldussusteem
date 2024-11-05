@@ -125,7 +125,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="lennujaamad.xml" />
-    <Content Include="LennujaamadLisa.xslt" />
+    <Content Include="LennujaamadLisa.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
