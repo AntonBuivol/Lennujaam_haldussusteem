@@ -2,7 +2,6 @@
 
 
 <asp:content ID="Connt1" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>xml ja xslt andmete kuvamine</h1>
     <br />
     
     <div>

@@ -1,24 +1,75 @@
-﻿/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    margin-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+﻿
+body {
+    font-family: 'Arial';
+    background-color: #f4f4f4;
+    margin: 20px;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+table {
+    width: 60%;
+    margin-left: 17%;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .body-content {
-        padding: 0;
+th, td {
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+input[type="text"], input[type="submit"], input[type="button"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+td {
+    background-color: white;
+}
+
+    td[colspan=”2″] {
+        text-align: center;
     }
+
+h1 {
+    color: white;
+    background-color: black;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-td{
-    border: solid black 1px
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
 }
